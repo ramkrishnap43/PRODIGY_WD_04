@@ -1,11 +1,27 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
 .container{
     width: 450px;
-    height: 580px;
+    height: 620px;
     margin: auto;
-    margin-top: 75px;
+    margin-top: 15px;
     border-radius: 15px;
-    background-image: linear-gradient(180deg, #130754, #3b2f80 100%);
+    /* background-image: linear-gradient(180deg, #130754, #3b2f80 100%); */
+    /* background: url("../../../public/weather-Image.jpg") no-repeat center ;
+    background-size: cover; */
 
+}
+
+.mainContainer {
+    /* background: url("https://images.unsplash.com/photo-1592210454359-9043f067919b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8d2VhdGhlcnxlbnwwfHwwfHx8MA%3D%3D&w=1000&q=80") no-repeat;
+    background-size: cover; */
+    background: url("../../../public/weather-Image.jpg") no-repeat center ;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
 }
 
 .top-bar{
@@ -16,8 +32,8 @@
 }
 .top-bar input{
     display: flex;
-    width: 362px;
-    height: 38px;
+    width: 370px;
+    height: 40px;
     background: #ebfffc;
     border: none;
     outline: none;
@@ -31,8 +47,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 80px;
-    height: 38px;
+    width: 90px;
+    height: 40px;
     background: #ebfffc;
     border-radius: 40px;
     cursor: pointer;
@@ -41,23 +57,24 @@
     margin-top: 29px;
     display: flex;
     justify-content: center;
-    width: 30%;
-    height: 10%;
+    width:25%;
+    height: 15%;
     margin: auto;
 }
 .weather_temp{
     display: flex;
     justify-content: center;
-    color: white;
-    font-size: 120px;
+    color: black;
+    font-size: 90px;
     font-weight: 400;
 }
 .weather_location{
     display: flex;
     justify-content: center;
-    color: white;
-    font-size: 60px;
+    color: black;
+    font-size: 50px;
     font-weight: 400;
+    font-family: 'Young Serif', serif;
 
 }
 .data_container{
@@ -80,7 +97,10 @@
 .text{
     font-size: 20px;
     font-weight: 400;
+    color: rgb(255, 255, 255);
+    font-family: 'Young Serif', serif;
 }
 .icon{
     margin-top: 10px;
+    
 }
